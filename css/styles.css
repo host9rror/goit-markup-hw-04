@@ -522,6 +522,14 @@ header {
 }
 
 .footer-p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+  color: #ffffff;
 }
 
 .footer-social-link {
@@ -539,7 +547,12 @@ header {
   align-items: center;
   background-color: #4d5ae5;
   border-radius: 50%;
-  transition: background-color var(--transition-main);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-social-item {
